@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['acne']
+
+roboflow:
+  workspace: university-wfu5i
+  project: acne-cwblu
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/university-wfu5i/acne-cwblu/dataset/3
