@@ -60,7 +60,7 @@ class SkinDiseaseClassifier(QWidget):
 
         # Load your skin disease classification model (replace with your model path)
         self.inception_v3 = InceptionV3(weights='imagenet', include_top=False, input_shape=(299, 299, 3))
-        self.kNN_model = joblib.load('D:/skin_disease/models/InceptionV3+kNN_Model_2.pkl')  # Replace with your kNN model path
+        self.kNN_model = joblib.load('D:/skin_disease/models/InceptionV3+kNN_Model_2.pkl')  # Replace with your kNN model path (in this case inside models)
 
     def show_previous(self):
         if self.current_index > 0:
