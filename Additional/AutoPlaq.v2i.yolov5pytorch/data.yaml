@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['plaque psoriasis']
+
+roboflow:
+  workspace: john-carson-ry7mx
+  project: autoplaq
+  version: 2
+  license: BY-NC-SA 4.0
+  url: https://universe.roboflow.com/john-carson-ry7mx/autoplaq/dataset/2

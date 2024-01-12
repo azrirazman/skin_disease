@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['Acne', 'Chicken Skin', 'Eczema', 'Healthy Skin', 'Leprosy', 'Psoriasis', 'Ringworm', 'Warts']
+
+roboflow:
+  workspace: project
+  project: skin-disease-detection-vecgj
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project/skin-disease-detection-vecgj/dataset/1
